@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1586526476 source:c:\users\aishw\onedrive\desktop\cppproject\main.cpp
+	"user.h"
+	"operator.h"
+	"controllpannel.h"
+	"databaseapplication.h"
+	"geosynchronoussattellite.h"
+	"satellitebox.h"
+	"weatherinformationsystem.h"
+	"barometer.h"
+	"temperaturesensor.h"
+	"windsensor.h"
+	"rainfallsensor.h"
+	<iostream>
+
+1586511857 c:\users\aishw\onedrive\desktop\cppproject\user.h
+	<iostream>
+
+1586535983 c:\users\aishw\onedrive\desktop\cppproject\operator.h
+	<iostream>
+	"user.h"
+
+1586511894 source:c:\users\aishw\onedrive\desktop\cppproject\userdef.cpp
+	"user.h"
+	<iostream>
+
+1586521897 source:c:\users\aishw\onedrive\desktop\cppproject\operator.cpp
+	"operator.h"
+	<iostream>
+	<cstring>
+	<cstdlib>
+
+1586533187 source:c:\users\aishw\onedrive\desktop\cppproject\databaseapplicationdef.cpp
+	"databaseapplication.h"
+	<iostream>
+	<cstring>
+
+1586533187 c:\users\aishw\onedrive\desktop\cppproject\databaseapplication.h
+	"user.h"
+	"weatherinformationsystem.h"
+	<iostream>
+
+1586533187 c:\users\aishw\onedrive\desktop\cppproject\controllpannel.h
+	<iostream>
+	"user.h"
+	"weatherinformationsystem.h"
+	"satellitebox.h"
+
+1586533187 source:c:\users\aishw\onedrive\desktop\cppproject\controllpanneldef.cpp
+	"controllpannel.h"
+	<iostream>
+	<cstring>
+
+1586507825 source:c:\users\aishw\onedrive\desktop\cppproject\geosynchronoussattellitedef.cpp
+	"geosynchronoussattellite.h"
+	<iostream>
+
+1586507825 c:\users\aishw\onedrive\desktop\cppproject\geosynchronoussattellite.h
+	<iostream>
+	"user.h"
+
+1586523017 source:c:\users\aishw\onedrive\desktop\cppproject\satelliteboxdef.cpp
+	"satellitebox.h"
+	<iostream>
+
+1586523017 c:\users\aishw\onedrive\desktop\cppproject\satellitebox.h
+	<iostream>
+	"weatherinformationsystem.h"
+
+1586507825 source:c:\users\aishw\onedrive\desktop\cppproject\windsensordef.cpp
+	"windsensor.h"
+	<iostream>
+
+1586521862 c:\users\aishw\onedrive\desktop\cppproject\windsensor.h
+	"user.h"
+	<iostream>
+
+1586507825 source:c:\users\aishw\onedrive\desktop\cppproject\barometerdef.cpp
+	"barometer.h"
+	<iostream>
+
+1586536035 c:\users\aishw\onedrive\desktop\cppproject\barometer.h
+	"user.h"
+	<iostream>
+
+1586535983 c:\users\aishw\onedrive\desktop\cppproject\weatherinformationsystem.h
+	"user.h"
+	"barometer.h"
+	"temperaturesensor.h"
+	"windsensor.h"
+	"rainfallsensor.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1586536055 c:\users\aishw\onedrive\desktop\cppproject\temperaturesensor.h
+	"user.h"
+	<iostream>
+
+1586536608 c:\users\aishw\onedrive\desktop\cppproject\rainfallsensor.h
+	"user.h"
+	<iostream>
+
+1586507825 source:c:\users\aishw\onedrive\desktop\cppproject\temperaturesensordef.cpp
+	"temperaturesensor.h"
+	<iostream>
+
+1586536744 source:c:\users\aishw\onedrive\desktop\cppproject\weatherinformationsystemdef.cpp
+	"weatherinformationsystem.h"
+	<iostream>
+
+1586536608 source:c:\users\aishw\onedrive\desktop\cppproject\rainfallsensordef.cpp
+	"rainfallsensor.h"
+	<cstring>
+	<iostream>
+

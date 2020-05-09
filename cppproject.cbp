@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cppproject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cppproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cppproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="barometer.h" />
+		<Unit filename="barometerdef.cpp" />
+		<Unit filename="controllpannel.h" />
+		<Unit filename="controllpanneldef.cpp" />
+		<Unit filename="databaseapplication.h" />
+		<Unit filename="databaseapplicationdef.cpp" />
+		<Unit filename="geosynchronoussattellite.h" />
+		<Unit filename="geosynchronoussattellitedef.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="operator.cpp" />
+		<Unit filename="operator.h" />
+		<Unit filename="rainfallsensor.h" />
+		<Unit filename="rainfallsensordef.cpp" />
+		<Unit filename="satellitebox.h" />
+		<Unit filename="satelliteboxdef.cpp" />
+		<Unit filename="temperaturesensor.h" />
+		<Unit filename="temperaturesensordef.cpp" />
+		<Unit filename="user.h" />
+		<Unit filename="userdef.cpp" />
+		<Unit filename="weatherinformationsystem.h" />
+		<Unit filename="weatherinformationsystemdef.cpp" />
+		<Unit filename="windsensor.h" />
+		<Unit filename="windsensordef.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
